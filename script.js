@@ -11,37 +11,63 @@ document.getElementById("questionForm").addEventListener("submit", async functio
   const mcqCount = parseInt(document.getElementById("mcqCount").value);
   const frqCount = parseInt(document.getElementById("frqCount").value);
   const output = document.getElementById("output");
+  const checkBtn = document.getElementById("checkAnswers");
+  const results = document.getElementById("results");
 
   output.innerHTML = "<p>Loading questions...</p>";
+  results.innerHTML = "";
+  checkBtn.style.display = "none";
 
   const data = await fetchQuestions(event);
   const mcqs = data.mcq.slice(0, mcqCount);
   const frqs = data.frq.slice(0, frqCount);
 
   output.innerHTML = "";
+  let mcqHtml = "";
 
   if (mcqs.length) {
-    output.innerHTML += `<h2 class="text-xl font-semibold">Multiple Choice Questions</h2>`;
+    mcqHtml += `<h2>Multiple Choice Questions</h2>`;
     mcqs.forEach((item, i) => {
-      output.innerHTML += `
-        <div class="mb-4">
-          <p class="font-medium">${i + 1}. ${item.q}</p>
-          <ul class="list-disc ml-6">
-            ${item.options.map(opt => `<li>${opt}</li>`).join("")}
+      mcqHtml += `
+        <div class="question">
+          <p>${i + 1}. ${item.q}</p>
+          <ul class="options">
+            ${item.options.map((opt, j) => `
+              <li>
+                <label>
+                  <input type="radio" name="mcq${i}" value="${j}" />
+                  ${opt}
+                </label>
+              </li>`).join("")}
           </ul>
-        </div>
-      `;
+        </div>`;
     });
+    output.innerHTML += mcqHtml;
   }
 
   if (frqs.length) {
-    output.innerHTML += `<h2 class="text-xl font-semibold mt-4">Free Response Questions</h2>`;
+    output.innerHTML += `<h2>Free Response Questions</h2>`;
     frqs.forEach((item, i) => {
       output.innerHTML += `
-        <div class="mb-4">
-          <p class="font-medium">${i + 1}. ${item}</p>
-        </div>
-      `;
+        <div class="question">
+          <p>${i + 1}. ${item}</p>
+          <textarea rows="3" style="width: 100%" placeholder="Type your answer..."></textarea>
+        </div>`;
     });
   }
+
+  checkBtn.style.display = mcqs.length ? "block" : "none";
+
+  checkBtn.onclick = () => {
+    results.innerHTML = "<h3>Results</h3>";
+    mcqs.forEach((item, i) => {
+      const selected = document.querySelector(`input[name=mcq${i}]:checked`);
+      const isCorrect = selected && parseInt(selected.value) === item.answer;
+      results.innerHTML += `
+        <p class="${isCorrect ? "correct" : "incorrect"}">
+          Q${i + 1}: ${isCorrect ? "Correct!" : "Incorrect"} (Correct: ${item.options[item.answer]})
+        </p>
+      `;
+    });
+  };
 });

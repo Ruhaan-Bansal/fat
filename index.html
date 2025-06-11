@@ -4,36 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Science Olympiad Question Generator</title>
+  <link href="style.css" rel="stylesheet">
   <script defer src="script.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 min-h-screen p-6">
-  <div class="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-md">
-    <h1 class="text-2xl font-bold mb-4">Science Olympiad Question Generator</h1>
-    <form id="questionForm" class="space-y-4">
-      <div>
-        <label class="block font-semibold">Select Event</label>
-        <select id="event" class="w-full border p-2 rounded">
+<body class="bg">
+  <div class="container">
+    <h1>Science Olympiad Question Generator</h1>
+    <form id="questionForm">
+      <label>Select Event
+        <select id="event">
           <option>Anatomy</option>
           <option>Astronomy</option>
           <option>Forensics</option>
           <option>Chem Lab</option>
         </select>
-      </div>
-      <div class="flex space-x-4">
-        <div class="flex-1">
-          <label class="block font-semibold"># of MCQs</label>
-          <input id="mcqCount" type="number" min="0" value="5" class="w-full border p-2 rounded" />
-        </div>
-        <div class="flex-1">
-          <label class="block font-semibold"># of FRQs</label>
-          <input id="frqCount" type="number" min="0" value="3" class="w-full border p-2 rounded" />
-        </div>
-      </div>
-      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Generate Questions</button>
+      </label>
+      <label># of MCQs
+        <input id="mcqCount" type="number" min="0" value="5" />
+      </label>
+      <label># of FRQs
+        <input id="frqCount" type="number" min="0" value="3" />
+      </label>
+      <button type="submit">Generate Questions</button>
     </form>
 
-    <div id="output" class="mt-6 space-y-6"></div>
+    <div id="output"></div>
+    <button id="checkAnswers" style="display: none">Check Answers</button>
+    <div id="results"></div>
   </div>
 </body>
 </html>
