@@ -108,3 +108,112 @@ button:hover {
   font-weight: bold;
   text-shadow: 0 0 6px #ff0000;
 }
+
+/* New styles for question tracking functionality */
+.warning {
+  background: linear-gradient(135deg, #4a4a00, #666600);
+  color: #ffff99;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  border: 2px solid #999900;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.3);
+  font-weight: 600;
+  text-shadow: 0 0 5px #cccc00;
+}
+
+.user-info {
+  background: linear-gradient(135deg, #002b70, #004080);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 2px solid #007acc;
+  box-shadow: 0 0 15px rgba(0, 122, 204, 0.4);
+}
+
+.user-info p {
+  margin: 8px 0;
+  color: #c3d9ff;
+  font-weight: 600;
+}
+
+.user-info strong {
+  color: #9fcfff;
+  text-shadow: 0 0 5px #3a7bd5;
+}
+
+.no-questions {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #003060, #004080);
+  border-radius: 12px;
+  border: 2px solid #007acc;
+  box-shadow: 0 0 20px rgba(0, 122, 204, 0.5);
+}
+
+.no-questions h3 {
+  color: #9fcfff;
+  text-shadow: 0 0 10px #3a7bd5;
+  margin-bottom: 15px;
+}
+
+.no-questions p {
+  color: #c3d9ff;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.reset-btn {
+  background: linear-gradient(135deg, #cc3300, #ff4444);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 4px 10px rgba(204, 51, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: linear-gradient(135deg, #b32d00, #e63939);
+  box-shadow: 0 6px 12px rgba(179, 45, 0, 0.8);
+  transform: translateY(-2px);
+}
+
+.final-score {
+  background: linear-gradient(135deg, #006600, #009900);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: center;
+  border: 2px solid #00cc00;
+  box-shadow: 0 0 15px rgba(0, 204, 0, 0.4);
+}
+
+.final-score h4 {
+  color: #ccffcc;
+  text-shadow: 0 0 10px #00ff00;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.final-score p {
+  color: #99ff99;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.success {
+  color: #ccffcc;
+  background: linear-gradient(135deg, #004d00, #006600);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  border: 2px solid #009900;
+  box-shadow: 0 0 10px rgba(0, 153, 0, 0.4);
+  font-weight: 600;
+  text-shadow: 0 0 5px #00cc00;
+}
