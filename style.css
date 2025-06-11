@@ -1,131 +1,110 @@
-/* Base and body */
 body.bg {
-  background: linear-gradient(135deg, #001f3f 0%, #0074D9 100%);
+  background-color: #001f3f;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #f0f8ff;
   margin: 0;
   padding: 2rem;
-  min-height: 100vh;
+  color: #e0e7ff;
 }
 
-/* Container with slight glow and modern vibe */
 .container {
   max-width: 800px;
-  background: rgba(0, 36, 75, 0.85);
-  padding: 2rem 3rem;
-  border-radius: 15px;
+  background: linear-gradient(135deg, #002b70, #0050a0);
+  padding: 2rem;
+  border-radius: 12px;
   margin: auto;
-  box-shadow:
-    0 0 15px 2px rgba(0, 123, 255, 0.7),
-    0 0 30px 4px rgba(0, 182, 255, 0.3);
-  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(0, 82, 160, 0.6);
+  border: 2px solid #007acc;
 }
 
-/* Title */
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
-  font-weight: 700;
-  font-size: 2.5rem;
-  letter-spacing: 1.2px;
-  text-shadow: 0 0 8px #00c0ff;
+  font-weight: 900;
+  color: #9fcfff;
+  text-shadow: 0 0 10px #3a7bd5;
 }
 
-/* Form styles */
 form {
   display: grid;
   gap: 1.2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 label {
   display: flex;
   flex-direction: column;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #cce7ff;
+  font-weight: 700;
+  color: #c3d9ff;
 }
 
 input,
 select,
-button {
+button,
+textarea {
   padding: 0.6rem;
   font-size: 1rem;
   margin-top: 0.4rem;
-  border-radius: 8px;
-  border: none;
-  outline: none;
+  border-radius: 6px;
+  border: 1px solid #4a90e2;
+  background: #e9f0ff;
+  color: #001f3f;
+  font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
-/* Inputs and selects */
-input, select {
-  background: #003366;
-  color: #e0f0ff;
-  box-shadow: inset 0 0 5px #00aaff;
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  background-color: #c6defa;
+  border-color: #0050a0;
 }
 
-input:focus, select:focus {
-  background: #005bbb;
-  box-shadow: 0 0 10px #00ccff;
-  color: white;
-}
-
-/* Buttons */
 button {
-  background: #00aaff;
-  color: #001f3f;
-  font-weight: 700;
+  background: #007acc;
+  color: white;
+  border: none;
   cursor: pointer;
-  box-shadow: 0 5px 12px #00ccffaa;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 122, 204, 0.6);
 }
 
 button:hover {
-  background: #007bbf;
-  color: #e0f7ff;
-  box-shadow: 0 5px 15px #00ccffdd;
+  background: #005fa3;
+  box-shadow: 0 6px 12px rgba(0, 95, 163, 0.8);
 }
 
-/* Question blocks */
 .question {
   margin-bottom: 1.5rem;
+  background: #004080;
   padding: 1rem;
-  border-radius: 12px;
-  background: rgba(255 255 255 / 0.1);
-  border: 1.5px solid #0099ff44;
-  box-shadow: inset 0 0 10px #00bbff33;
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px #003060;
 }
 
 .options {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 0.6rem;
 }
 
 .options li {
-  margin: 7px 0;
+  margin: 6px 0;
 }
 
-label input[type="radio"] {
-  margin-right: 0.8rem;
-  cursor: pointer;
-}
-
-/* Results */
 .correct {
-  color: #00ff88;
+  color: #7fff7f;
+  font-weight: bold;
+  text-shadow: 0 0 6px #00ff00;
+}
+
+.partial {
+  color: #ffc04d;
   font-weight: 700;
-  text-shadow: 0 0 8px #00ff88cc;
+  text-shadow: 0 0 6px #ffa500;
 }
 
 .incorrect {
-  color: #ff4466;
-  font-weight: 700;
-  text-shadow: 0 0 8px #ff4466cc;
-}
-
-#results h3 {
-  margin-bottom: 1rem;
-  color: #00d4ff;
-  text-shadow: 0 0 8px #00bfffcc;
+  color: #ff6666;
+  font-weight: bold;
+  text-shadow: 0 0 6px #ff0000;
 }

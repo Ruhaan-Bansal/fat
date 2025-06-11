@@ -25,41 +25,25 @@
           "A belt of gas around Earth"
         ],
         "answer": 2
-      },
-      {
-        "q": "Which planet is known as the 'Red Planet'?",
-        "options": ["Mars", "Venus", "Mercury", "Saturn"],
-        "answer": 0
-      },
-      {
-        "q": "What causes the phases of the Moon?",
-        "options": [
-          "Earth's shadow on the Moon",
-          "Moon's orbit around Earth and Sun light",
-          "Solar flares",
-          "Earth's rotation"
-        ],
-        "answer": 1
-      },
-      {
-        "q": "What is a light year?",
-        "options": [
-          "A year measured by Earth's orbit",
-          "Distance light travels in one year",
-          "A unit of time",
-          "A measure of brightness"
-        ],
-        "answer": 1
       }
     ],
     "frq": [
-      "Explain the life cycle of a medium-mass star.",
-      "Describe how black holes are detected.",
-      "Explain what causes a solar eclipse.",
-      "What is a neutron star and how does it form?",
-      "Describe the differences between a comet, asteroid, and meteor.",
-      "Explain the role of gravity in planetary orbits.",
-      "How does the Doppler effect apply to astronomy?"
+      {
+        "q": "Explain the life cycle of a medium-mass star.",
+        "answer": "A medium-mass star forms from a nebula, becomes a main sequence star, expands into a red giant, then sheds its outer layers and ends as a white dwarf."
+      },
+      {
+        "q": "Describe how black holes are detected.",
+        "answer": "Black holes are detected by observing their effects on nearby matter and gravitational lensing, such as x-ray emissions from accretion disks."
+      },
+      {
+        "q": "Explain what causes a solar eclipse.",
+        "answer": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking the Sun's light."
+      },
+      {
+        "q": "What is a neutron star and how does it form?",
+        "answer": "A neutron star is a dense remnant of a supernova, formed when a massive star's core collapses."
+      }
     ]
   },
   "Anatomy": {
@@ -78,26 +62,25 @@
         "q": "Where does gas exchange occur in the lungs?",
         "options": ["Bronchi", "Alveoli", "Trachea", "Pleura"],
         "answer": 1
-      },
-      {
-        "q": "Which part of the brain controls balance?",
-        "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
-        "answer": 1
-      },
-      {
-        "q": "What is the primary function of red blood cells?",
-        "options": ["Fight infection", "Carry oxygen", "Clot blood", "Produce hormones"],
-        "answer": 1
       }
     ],
     "frq": [
-      "Describe the function of the digestive system.",
-      "Explain how oxygen is transported in the blood.",
-      "Outline the structure of the nephron in the kidney.",
-      "What is the role of the hypothalamus?",
-      "Describe the mechanism of muscle contraction.",
-      "Explain the process of neural transmission.",
-      "What are the functions of the different lobes of the brain?"
+      {
+        "q": "Describe the function of the digestive system.",
+        "answer": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."
+      },
+      {
+        "q": "Explain how oxygen is transported in the blood.",
+        "answer": "Oxygen is transported by binding to hemoglobin in red blood cells."
+      },
+      {
+        "q": "Outline the structure of the nephron in the kidney.",
+        "answer": "The nephron filters blood, reabsorbs needed substances, and excretes waste as urine."
+      },
+      {
+        "q": "What is the role of the hypothalamus?",
+        "answer": "The hypothalamus regulates body temperature, hunger, thirst, and hormonal balance."
+      }
     ]
   }
 }
