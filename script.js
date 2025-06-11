@@ -23,10 +23,10 @@ document.getElementById("questionForm").addEventListener("submit", async functio
   const frqs = data.frq.slice(0, frqCount);
 
   output.innerHTML = "";
-  let mcqHtml = "";
 
+  // Render MCQs
   if (mcqs.length) {
-    mcqHtml += `<h2>Multiple Choice Questions</h2>`;
+    let mcqHtml = `<h2>Multiple Choice Questions</h2>`;
     mcqs.forEach((item, i) => {
       mcqHtml += `
         <div class="question">
@@ -38,13 +38,14 @@ document.getElementById("questionForm").addEventListener("submit", async functio
                   <input type="radio" name="mcq${i}" value="${j}" />
                   ${opt}
                 </label>
-              </li>`).join("")}
+              </li>`).join('')}
           </ul>
         </div>`;
     });
     output.innerHTML += mcqHtml;
   }
 
+  // Render FRQs
   if (frqs.length) {
     output.innerHTML += `<h2>Free Response Questions</h2>`;
     frqs.forEach((item, i) => {
@@ -56,6 +57,7 @@ document.getElementById("questionForm").addEventListener("submit", async functio
     });
   }
 
+  // Show check answers button only if MCQs exist
   checkBtn.style.display = mcqs.length ? "block" : "none";
 
   checkBtn.onclick = () => {
@@ -66,8 +68,7 @@ document.getElementById("questionForm").addEventListener("submit", async functio
       results.innerHTML += `
         <p class="${isCorrect ? "correct" : "incorrect"}">
           Q${i + 1}: ${isCorrect ? "Correct!" : "Incorrect"} (Correct: ${item.options[item.answer]})
-        </p>
-      `;
+        </p>`;
     });
   };
 });

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Science Olympiad Question Generator</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
   <script defer src="script.js"></script>
 </head>
 <body class="bg">
@@ -29,7 +29,11 @@
     </form>
 
     <div id="output"></div>
-    <button id="checkAnswers" style="display: none">Check Answers</button>
+
+    <!-- Check Answers button shown only if MCQs exist -->
+    <button id="checkAnswers" style="display: none;">Check Answers</button>
+
+    <!-- Results will appear here -->
     <div id="results"></div>
   </div>
 </body>
