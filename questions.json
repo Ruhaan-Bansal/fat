@@ -25,6 +25,236 @@
           "A belt of gas around Earth"
         ],
         "answer": 2
+      },
+      {
+        "q": "Which galaxy is closest to the Milky Way?",
+        "options": ["Andromeda", "Triangulum", "Large Magellanic Cloud", "Whirlpool"],
+        "answer": 0
+      },
+      {
+        "q": "What is the temperature of absolute zero?",
+        "options": ["-273°C", "-100°C", "-459°F", "Both A and C"],
+        "answer": 3
+      },
+      {
+        "q": "How long does it take light from the Sun to reach Earth?",
+        "options": ["8 minutes", "1 hour", "1 day", "1 second"],
+        "answer": 0
+      },
+      {
+        "q": "What causes the aurora borealis?",
+        "options": ["Solar wind", "Moon's gravity", "Earth's rotation", "Volcanic activity"],
+        "answer": 0
+      },
+      {
+        "q": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+        "answer": 1
+      },
+      {
+        "q": "What is a supernova?",
+        "options": ["Birth of a star", "Death of a massive star", "Collision of planets", "Solar flare"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has the strongest magnetic field?",
+        "options": ["Earth", "Jupiter", "Saturn", "Neptune"],
+        "answer": 1
+      },
+      {
+        "q": "What is the closest star to Earth besides the Sun?",
+        "options": ["Alpha Centauri", "Proxima Centauri", "Sirius", "Vega"],
+        "answer": 1
+      },
+      {
+        "q": "How many Earth days does it take Mars to orbit the Sun?",
+        "options": ["365", "687", "225", "88"],
+        "answer": 1
+      },
+      {
+        "q": "What is dark matter?",
+        "options": ["Black holes", "Dead stars", "Unknown invisible matter", "Space dust"],
+        "answer": 2
+      },
+      {
+        "q": "Which moon of Jupiter is considered most likely to harbor life?",
+        "options": ["Io", "Europa", "Ganymede", "Callisto"],
+        "answer": 1
+      },
+      {
+        "q": "What is the Great Red Spot on Jupiter?",
+        "options": ["A moon", "A storm", "A crater", "A mountain"],
+        "answer": 1
+      },
+      {
+        "q": "Which type of telescope uses mirrors?",
+        "options": ["Refracting", "Reflecting", "Radio", "X-ray"],
+        "answer": 1
+      },
+      {
+        "q": "What is the asteroid belt located between?",
+        "options": ["Earth and Mars", "Mars and Jupiter", "Jupiter and Saturn", "Saturn and Uranus"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet rotates on its side?",
+        "options": ["Venus", "Mars", "Uranus", "Neptune"],
+        "answer": 2
+      },
+      {
+        "q": "What is the Hubble constant used to measure?",
+        "options": ["Star brightness", "Universe expansion", "Planet distance", "Galaxy size"],
+        "answer": 1
+      },
+      {
+        "q": "Which element is most abundant in the universe?",
+        "options": ["Oxygen", "Carbon", "Hydrogen", "Helium"],
+        "answer": 2
+      },
+      {
+        "q": "What is a parsec?",
+        "options": ["Time unit", "Distance unit", "Mass unit", "Energy unit"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has the shortest day?",
+        "options": ["Mercury", "Venus", "Jupiter", "Saturn"],
+        "answer": 2
+      },
+      {
+        "q": "What causes tides on Earth?",
+        "options": ["Sun's gravity", "Moon's gravity", "Earth's rotation", "Solar wind"],
+        "answer": 1
+      },
+      {
+        "q": "Which spacecraft was first to leave the solar system?",
+        "options": ["Voyager 1", "Voyager 2", "Pioneer 10", "New Horizons"],
+        "answer": 0
+      },
+      {
+        "q": "What is the composition of Saturn's rings?",
+        "options": ["Rock", "Ice and rock", "Gas", "Metal"],
+        "answer": 1
+      },
+      {
+        "q": "Which constellation contains the North Star?",
+        "options": ["Ursa Major", "Ursa Minor", "Cassiopeia", "Draco"],
+        "answer": 1
+      },
+      {
+        "q": "What is redshift in astronomy?",
+        "options": ["Star color change", "Light wavelength stretching", "Planet movement", "Solar activity"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has the most extreme temperature variations?",
+        "options": ["Mercury", "Venus", "Mars", "Pluto"],
+        "answer": 0
+      },
+      {
+        "q": "What is the Chandrasekhar limit?",
+        "options": ["Speed of light", "White dwarf mass limit", "Black hole size", "Star temperature"],
+        "answer": 1
+      },
+      {
+        "q": "Which moon is the largest in our solar system?",
+        "options": ["Luna", "Europa", "Ganymede", "Titan"],
+        "answer": 2
+      },
+      {
+        "q": "What is cosmic microwave background radiation?",
+        "options": ["Star formation", "Big Bang afterglow", "Solar radiation", "Galaxy collision"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has the most tilted axis?",
+        "options": ["Earth", "Mars", "Uranus", "Neptune"],
+        "answer": 2
+      },
+      {
+        "q": "What is a quasar?",
+        "options": ["Dead star", "Active galactic nucleus", "Asteroid", "Comet"],
+        "answer": 1
+      },
+      {
+        "q": "Which force holds galaxies together?",
+        "options": ["Electromagnetic", "Strong nuclear", "Gravity", "Weak nuclear"],
+        "answer": 2
+      },
+      {
+        "q": "What is the ecliptic?",
+        "options": ["Moon's orbit", "Sun's path in sky", "Earth's rotation", "Star movement"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has the densest atmosphere?",
+        "options": ["Earth", "Venus", "Mars", "Jupiter"],
+        "answer": 1
+      },
+      {
+        "q": "What is Olbers' paradox?",
+        "options": ["Why sky is dark at night", "Planet formation", "Star brightness", "Galaxy rotation"],
+        "answer": 0
+      },
+      {
+        "q": "Which type of star will the Sun become?",
+        "options": ["Neutron star", "Black hole", "White dwarf", "Red giant"],
+        "answer": 2
+      },
+      {
+        "q": "What is the heliosphere?",
+        "options": ["Sun's surface", "Solar wind boundary", "Corona layer", "Solar cycle"],
+        "answer": 1
+      },
+      {
+        "q": "Which comet is most famous for its regular appearance?",
+        "options": ["Hale-Bopp", "Halley's", "Hyakutake", "NEOWISE"],
+        "answer": 1
+      },
+      {
+        "q": "What is stellar parallax used for?",
+        "options": ["Star color", "Star distance", "Star age", "Star mass"],
+        "answer": 1
+      },
+      {
+        "q": "Which planet has hexagonal clouds at its pole?",
+        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "answer": 1
+      },
+      {
+        "q": "What is the Drake equation used to estimate?",
+        "options": ["Star formation", "Alien civilizations", "Planet orbits", "Galaxy size"],
+        "answer": 1
+      },
+      {
+        "q": "Which spacecraft first visited Pluto?",
+        "options": ["Voyager 2", "Cassini", "New Horizons", "Pioneer 11"],
+        "answer": 2
+      },
+      {
+        "q": "What is the Roche limit?",
+        "options": ["Planet formation distance", "Tidal disruption distance", "Asteroid belt location", "Habitable zone"],
+        "answer": 1
+      },
+      {
+        "q": "Which element is created in stellar cores?",
+        "options": ["Hydrogen", "Helium", "Carbon", "All of the above"],
+        "answer": 3
+      },
+      {
+        "q": "What is a brown dwarf?",
+        "options": ["Dead star", "Failed star", "Small planet", "Asteroid"],
+        "answer": 1
+      },
+      {
+        "q": "Which phenomenon proves general relativity?",
+        "options": ["Redshift", "Gravitational lensing", "Time dilation", "All of the above"],
+        "answer": 3
+      },
+      {
+        "q": "What is the Oort Cloud?",
+        "options": ["Star cluster", "Comet reservoir", "Gas cloud", "Dust cloud"],
+        "answer": 1
       }
     ],
     "frq": [
@@ -43,6 +273,90 @@
       {
         "q": "What is a neutron star and how does it form?",
         "answer": "A neutron star is a dense remnant of a supernova, formed when a massive star's core collapses."
+      },
+      {
+        "q": "Describe the Big Bang theory.",
+        "answer": "The Big Bang theory states that the universe began from an extremely hot, dense point about 13.8 billion years ago and has been expanding ever since."
+      },
+      {
+        "q": "Explain how stars generate energy.",
+        "answer": "Stars generate energy through nuclear fusion, where hydrogen atoms fuse to form helium, releasing tremendous amounts of energy."
+      },
+      {
+        "q": "What is dark energy and how does it affect the universe?",
+        "answer": "Dark energy is a mysterious force causing the universe's expansion to accelerate, making up about 68% of the universe."
+      },
+      {
+        "q": "Describe the formation of the solar system.",
+        "answer": "The solar system formed from a collapsing nebula about 4.6 billion years ago, with the Sun forming at the center and planets forming from the remaining disk material."
+      },
+      {
+        "q": "Explain what causes the seasons on Earth.",
+        "answer": "Seasons are caused by Earth's tilted axis as it orbits the Sun, resulting in different amounts of solar radiation reaching different hemispheres."
+      },
+      {
+        "q": "What are exoplanets and how are they discovered?",
+        "answer": "Exoplanets are planets orbiting other stars, discovered through methods like the transit method, radial velocity, and direct imaging."
+      },
+      {
+        "q": "Describe the structure of a galaxy.",
+        "answer": "A galaxy consists of a central bulge, spiral arms (in spiral galaxies), a halo of dark matter, and contains billions of stars, gas, and dust."
+      },
+      {
+        "q": "Explain the concept of escape velocity.",
+        "answer": "Escape velocity is the minimum speed needed for an object to break free from a celestial body's gravitational pull without further propulsion."
+      },
+      {
+        "q": "What is the greenhouse effect on Venus?",
+        "answer": "Venus experiences a runaway greenhouse effect due to its thick CO2 atmosphere, trapping heat and creating surface temperatures of 462°C."
+      },
+      {
+        "q": "Describe how we measure distances to stars.",
+        "answer": "Star distances are measured using parallax for nearby stars, standard candles like Cepheid variables for medium distances, and redshift for very distant objects."
+      },
+      {
+        "q": "Explain the difference between asteroids, comets, and meteoroids.",
+        "answer": "Asteroids are rocky bodies in space, comets are icy bodies that develop tails near the Sun, and meteoroids are small particles that can enter Earth's atmosphere."
+      },
+      {
+        "q": "What is the habitable zone around a star?",
+        "answer": "The habitable zone is the region around a star where liquid water can exist on a planet's surface, also called the Goldilocks zone."
+      },
+      {
+        "q": "Describe the lifecycle of a massive star.",
+        "answer": "A massive star forms from a nebula, becomes a main sequence star, evolves through red supergiant phase, explodes as a supernova, and ends as either a neutron star or black hole."
+      },
+      {
+        "q": "Explain what causes lunar phases.",
+        "answer": "Lunar phases are caused by the changing positions of the Moon relative to Earth and Sun, determining how much of the Moon's illuminated side we see."
+      },
+      {
+        "q": "What is cosmic inflation?",
+        "answer": "Cosmic inflation is the theoretical rapid expansion of space in the first fraction of a second after the Big Bang, explaining the universe's large-scale structure."
+      },
+      {
+        "q": "Describe the composition and structure of the Sun.",
+        "answer": "The Sun consists of a core where fusion occurs, radiative and convective zones, photosphere, chromosphere, and corona, composed mainly of hydrogen and helium."
+      },
+      {
+        "q": "Explain how tidal forces work.",
+        "answer": "Tidal forces result from gravitational differences across an object's extent, with the Moon's gravity being stronger on Earth's near side than far side."
+      },
+      {
+        "q": "What is the significance of the cosmic microwave background?",
+        "answer": "The cosmic microwave background is the afterglow of the Big Bang, providing evidence for the Big Bang theory and information about the early universe."
+      },
+      {
+        "q": "Describe the formation of heavy elements in the universe.",
+        "answer": "Heavy elements are formed through stellar nucleosynthesis in star cores and during supernovae, then distributed through space to form new stars and planets."
+      },
+      {
+        "q": "Explain the concept of redshift and its importance.",
+        "answer": "Redshift is the stretching of light wavelengths due to the expansion of space, allowing us to measure distances and velocities of distant galaxies."
+      },
+      {
+        "q": "What are pulsars and how do they work?",
+        "answer": "Pulsars are rapidly rotating neutron stars that emit beams of radiation, appearing to pulse as the beams sweep across Earth like a lighthouse."
       }
     ]
   },
@@ -62,24 +376,307 @@
         "q": "Where does gas exchange occur in the lungs?",
         "options": ["Bronchi", "Alveoli", "Trachea", "Pleura"],
         "answer": 1
+      },
+      {
+        "q": "How many chambers does the human heart have?",
+        "options": ["2", "3", "4", "5"],
+        "answer": 2
+      },
+      {
+        "q": "Which bone is the longest in the human body?",
+        "options": ["Tibia", "Femur", "Humerus", "Radius"],
+        "answer": 1
+      },
+      {
+        "q": "What is the smallest bone in the human body?",
+        "options": ["Stapes", "Malleus", "Incus", "Hyoid"],
+        "answer": 0
+      },
+      {
+        "q": "Which part of the brain controls balance?",
+        "options": ["Cerebrum", "Cerebellum", "Brainstem", "Thalamus"],
+        "answer": 1
+      },
+      {
+        "q": "How many pairs of ribs do humans typically have?",
+        "options": ["10", "11", "12", "13"],
+        "answer": 2
+      },
+      {
+        "q": "Which gland produces insulin?",
+        "options": ["Liver", "Pancreas", "Thyroid", "Adrenal"],
+        "answer": 1
+      },
+      {
+        "q": "What is the main function of red blood cells?",
+        "options": ["Fight infection", "Carry oxygen", "Clot blood", "Produce hormones"],
+        "answer": 1
+      },
+      {
+        "q": "Which artery carries deoxygenated blood?",
+        "options": ["Aorta", "Carotid", "Pulmonary", "Coronary"],
+        "answer": 2
+      },
+      {
+        "q": "How many vertebrae are in the human spine?",
+        "options": ["24", "26", "33", "31"],
+        "answer": 2
+      },
+      {
+        "q": "Which hormone regulates blood sugar?",
+        "options": ["Cortisol", "Insulin", "Thyroxine", "Adrenaline"],
+        "answer": 1
+      },
+      {
+        "q": "What connects muscle to bone?",
+        "options": ["Ligament", "Tendon", "Cartilage", "Fascia"],
+        "answer": 1
+      },
+      {
+        "q": "Which part of the eye controls the amount of light entering?",
+        "options": ["Cornea", "Lens", "Iris", "Retina"],
+        "answer": 2
+      },
+      {
+        "q": "What is the normal resting heart rate?",
+        "options": ["40-60 bpm", "60-100 bpm", "100-120 bpm", "120-140 bpm"],
+        "answer": 1
+      },
+      {
+        "q": "Which blood type is considered the universal donor?",
+        "options": ["A", "B", "AB", "O"],
+        "answer": 3
+      },
+      {
+        "q": "What is the largest part of the brain?",
+        "options": ["Cerebellum", "Brainstem", "Cerebrum", "Diencephalon"],
+        "answer": 2
+      },
+      {
+        "q": "Which muscle is responsible for breathing?",
+        "options": ["Diaphragm", "Intercostals", "Pectorals", "Abdominals"],
+        "answer": 0
+      },
+      {
+        "q": "How many lobes are in the right lung?",
+        "options": ["1", "2", "3", "4"],
+        "answer": 2
+      },
+      {
+        "q": "What produces bile in the body?",
+        "options": ["Gallbladder", "Liver", "Pancreas", "Stomach"],
+        "answer": 1
+      },
+      {
+        "q": "Which cranial nerve controls vision?",
+        "options": ["Optic", "Oculomotor", "Trochlear", "Abducens"],
+        "answer": 0
+      },
+      {
+        "q": "What is the medical term for the kneecap?",
+        "options": ["Patella", "Tibia", "Fibula", "Femur"],
+        "answer": 0
+      },
+      {
+        "q": "Which organ filters waste from the blood?",
+        "options": ["Liver", "Lungs", "Kidneys", "Spleen"],
+        "answer": 2
+      },
+      {
+        "q": "What is the strongest muscle in the human body?",
+        "options": ["Biceps", "Quadriceps", "Masseter", "Gluteus maximus"],
+        "answer": 2
+      },
+      {
+        "q": "Which valve is between the left atrium and left ventricle?",
+        "options": ["Tricuspid", "Pulmonary", "Mitral", "Aortic"],
+        "answer": 2
+      },
+      {
+        "q": "What is the average adult human body temperature?",
+        "options": ["36.5°C", "37°C", "37.5°C", "38°C"],
+        "answer": 1
+      },
+      {
+        "q": "Which part of the nervous system includes the brain and spinal cord?",
+        "options": ["Peripheral", "Central", "Autonomic", "Somatic"],
+        "answer": 1
+      },
+      {
+        "q": "What is the function of platelets?",
+        "options": ["Carry oxygen", "Fight infection", "Blood clotting", "Hormone transport"],
+        "answer": 2
+      },
+      {
+        "q": "Which gland is called the 'master gland'?",
+        "options": ["Thyroid", "Adrenal", "Pituitary", "Pineal"],
+        "answer": 2
+      },
+      {
+        "q": "How many pairs of cranial nerves are there?",
+        "options": ["10", "12", "14", "16"],
+        "answer": 1
+      },
+      {
+        "q": "What is the outer layer of skin called?",
+        "options": ["Dermis", "Epidermis", "Hypodermis", "Subcutis"],
+        "answer": 1
+      },
+      {
+        "q": "Which organ produces white blood cells?",
+        "options": ["Liver", "Spleen", "Bone marrow", "Lymph nodes"],
+        "answer": 2
+      },
+      {
+        "q": "What is the largest artery in the body?",
+        "options": ["Pulmonary artery", "Carotid artery", "Aorta", "Femoral artery"],
+        "answer": 2
+      },
+      {
+        "q": "Which part of the brain controls speech?",
+        "options": ["Broca's area", "Wernicke's area", "Both A and B", "Cerebellum"],
+        "answer": 2
+      },
+      {
+        "q": "What is the pH of normal blood?",
+        "options": ["7.0", "7.2", "7.4", "7.6"],
+        "answer": 2
+      },
+      {
+        "q": "Which hormone is produced by the thyroid gland?",
+        "options": ["Insulin", "Cortisol", "Thyroxine", "Growth hormone"],
+        "answer": 2
+      },
+      {
+        "q": "What connects bone to bone?",
+        "options": ["Tendon", "Ligament", "Cartilage", "Muscle"],
+        "answer": 1
+      },
+      {
+        "q": "Which chamber of the heart pumps blood to the lungs?",
+        "options": ["Right atrium", "Right ventricle", "Left atrium", "Left ventricle"],
+        "answer": 1
+      },
+      {
+        "q": "What is the medical term for the voice box?",
+        "options": ["Pharynx", "Larynx", "Trachea", "Epiglottis"],
+        "answer": 1
+      },
+      {
+        "q": "Which part of the ear is responsible for hearing?",
+        "options": ["Outer ear", "Middle ear", "Inner ear", "Eardrum"],
+        "answer": 2
+      },
+      {
+        "q": "What is the normal blood pressure range?",
+        "options": ["90/60-120/80", "100/70-140/90", "110/80-150/95", "120/90-160/100"],
+        "answer": 0
+      },
+      {
+        "q": "Which organ stores and concentrates bile?",
+        "options": ["Liver", "Pancreas", "Gallbladder", "Duodenum"],
+        "answer": 2
+      },
+      {
+        "q": "What is the function of the spleen?",
+        "options": ["Produces bile", "Filters blood", "Stores urine", "Produces insulin"],
+        "answer": 1
+      },
+      {
+        "q": "Which type of joint is the shoulder?",
+        "options": ["Hinge", "Ball and socket", "Pivot", "Gliding"],
+        "answer": 1
+      },
+      {
+        "q": "What is the medical term for the windpipe?",
+        "options": ["Bronchus", "Larynx", "Trachea", "Pharynx"],
+        "answer": 2
+      },
+      {
+        "q": "Which blood vessels carry blood back to the heart?",
+        "options": ["Arteries", "Veins", "Capillaries", "Arterioles"],
+        "answer": 1
+      },
+      {
+        "q": "What is the average lifespan of a red blood cell?",
+        "options": ["60 days", "90 days", "120 days", "150 days"],
+        "answer": 2
+      },
+      {
+        "q": "Which part of the kidney filters blood?",
+        "options": ["Cortex", "Medulla", "Nephron", "Pelvis"],
+        "answer": 2
+      },
+      {
+        "q": "What is the largest vein in the body?",
+        "options": ["Pulmonary vein", "Jugular vein", "Vena cava", "Portal vein"],
+        "answer": 2
       }
     ],
     "frq": [
       {
         "q": "Describe the function of the digestive system.",
-        "answer": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."
+        "answer": "The digestive system breaks down food into nutrients through mechanical and chemical processes, absorbs these nutrients into the bloodstream, and eliminates waste products from the body."
       },
       {
         "q": "Explain how oxygen is transported in the blood.",
-        "answer": "Oxygen is transported by binding to hemoglobin in red blood cells."
+        "answer": "Oxygen is transported by binding to hemoglobin in red blood cells, forming oxyhemoglobin. A small amount also dissolves directly in blood plasma."
       },
       {
         "q": "Outline the structure of the nephron in the kidney.",
-        "answer": "The nephron filters blood, reabsorbs needed substances, and excretes waste as urine."
+        "answer": "The nephron consists of a glomerulus, Bowman's capsule, proximal tubule, loop of Henle, distal tubule, and collecting duct. It filters blood, reabsorbs needed substances, and produces urine."
       },
       {
         "q": "What is the role of the hypothalamus?",
-        "answer": "The hypothalamus regulates body temperature, hunger, thirst, and hormonal balance."
+        "answer": "The hypothalamus regulates body temperature, hunger, thirst, sleep cycles, and controls the pituitary gland to maintain hormonal balance and homeostasis."
+      },
+      {
+        "q": "Describe the cardiac cycle.",
+        "answer": "The cardiac cycle consists of systole (contraction) and diastole (relaxation). During systole, ventricles contract to pump blood out, while during diastole, they relax and fill with blood."
+      },
+      {
+        "q": "Explain the process of muscle contraction.",
+        "answer": "Muscle contraction occurs when actin and myosin filaments slide past each other, triggered by calcium release and ATP energy, causing the muscle fiber to shorten."
+      },
+      {
+        "q": "Describe the structure and function of the respiratory system.",
+        "answer": "The respiratory system includes the nose, pharynx, larynx, trachea, bronchi, and lungs. It facilitates gas exchange, bringing oxygen into the blood and removing carbon dioxide."
+      },
+      {
+        "q": "Explain how the immune system protects the body.",
+        "answer": "The immune system uses white blood cells, antibodies, and lymphoid organs to identify and destroy pathogens, foreign substances, and abnormal cells while maintaining memory for future protection."
+      },
+      {
+        "q": "Describe the structure of the human eye.",
+        "answer": "The eye consists of the cornea, iris, lens, retina, vitreous humor, and optic nerve. Light enters through the cornea, is focused by the lens onto the retina, which converts it to neural signals."
+      },
+      {
+        "q": "Explain the function of the endocrine system.",
+        "answer": "The endocrine system produces and secretes hormones that regulate metabolism, growth, reproduction, mood, and homeostasis through glands like the pituitary, thyroid, and adrenals."
+      },
+      {
+        "q": "Describe the process of blood clotting.",
+        "answer": "Blood clotting involves platelet aggregation at injury sites, activation of clotting factors in a cascade reaction, and formation of fibrin threads that create a stable clot to stop bleeding."
+      },
+      {
+        "q": "Explain the structure and function of neurons.",
+        "answer": "Neurons consist of a cell body, dendrites, and axon. They transmit electrical and chemical signals throughout the nervous system, enabling communication between different body parts."
+      },
+      {
+        "q": "Describe the layers of the skin.",
+        "answer": "The skin has three layers: epidermis (outer protective layer), dermis (contains blood vessels, nerves, and glands), and hypodermis (fat layer for insulation and energy storage)."
+      },
+      {
+        "q": "Explain how the kidney regulates blood pressure.",
+        "answer": "The kidney regulates blood pressure through the renin-angiotensin system, controlling blood volume by adjusting sodium and water retention, and producing hormones that affect blood vessel constriction."
+      },
+      {
+        "q": "Describe the structure of bone tissue.",
+        "answer": "Bone tissue consists of compact bone (dense outer layer) and spongy bone (inner trabecular structure), containing osteoblasts, osteoclasts, and osteocytes embedded in a matrix of collagen and calcium phosphate."
+      },
+      {
+        "q": "Explain the process of digestion in the stomach.",
+        "answer": "The stomach produces gastric acid and pepsin to break down proteins, churns food mechanically, and gradually releases chyme into the small intestine while protecting itself with mucus."
       }
     ]
   }

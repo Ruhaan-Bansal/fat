@@ -1,5 +1,5 @@
 async function fetchQuestions(eventName) {
-  const response = await fetch("large_questions.json");
+  const response = await fetch("questions.json");
   const data = await response.json();
   return data[eventName] || { mcq: [], frq: [] };
 }
