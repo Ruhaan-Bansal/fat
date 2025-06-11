@@ -1,62 +1,62 @@
 {
-  "Anatomy": {
-    "mcq": [
-      {
-        "q": "What is the main function of the nephron?",
-        "options": ["Digestion", "Filtration", "Circulation", "Respiration"],
-        "answer": 1
-      },
-      {
-        "q": "Which muscle is part of the quadriceps?",
-        "options": ["Biceps", "Hamstring", "Rectus femoris", "Triceps"],
-        "answer": 2
-      }
-    ],
-    "frq": [
-      "Describe the pathway of blood through the heart.",
-      "Explain how muscle contraction occurs in the sliding filament theory."
-    ]
-  },
   "Astronomy": {
     "mcq": [
       {
-        "q": "What is the primary component of the Sun?",
-        "options": ["Oxygen", "Carbon", "Helium", "Hydrogen"],
-        "answer": 3
+        "q": "What type of star is the Sun?",
+        "options": ["Red Dwarf", "White Dwarf", "Main Sequence", "Neutron Star"],
+        "answer": 2
       },
       {
         "q": "Which planet has the most moons?",
-        "options": ["Earth", "Mars", "Saturn", "Venus"],
-        "answer": 2
-      }
-    ],
-    "frq": [
-      "Compare and contrast the life cycles of high mass vs low mass stars.",
-      "Explain how redshift supports the expanding universe theory."
-    ]
-  },
-  "Forensics": {
-    "mcq": [
-      {
-        "q": "Which technique is used for DNA profiling?",
-        "options": ["X-ray crystallography", "PCR", "Spectrophotometry", "Gel electrophoresis"],
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
         "answer": 3
-      }
-    ],
-    "frq": [
-      "Describe how chromatography can be used to identify substances in a crime scene."
-    ]
-  },
-  "Chem Lab": {
-    "mcq": [
+      },
       {
-        "q": "What color does phenolphthalein turn in a base?",
-        "options": ["Colorless", "Red", "Pink", "Blue"],
+        "q": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Jupiter", "Neptune", "Saturn"],
+        "answer": 1
+      },
+      {
+        "q": "What is the Kuiper Belt?",
+        "options": [
+          "A type of galaxy",
+          "A ring of asteroids around Jupiter",
+          "A region beyond Neptune with icy bodies",
+          "A belt of gas around Earth"
+        ],
         "answer": 2
       }
     ],
     "frq": [
-      "Explain how titration is used to determine concentration."
+      "Explain the life cycle of a medium-mass star.",
+      "Describe how black holes are detected.",
+      "Explain what causes a solar eclipse.",
+      "What is a neutron star and how does it form?"
+    ]
+  },
+  "Anatomy": {
+    "mcq": [
+      {
+        "q": "What is the largest organ in the human body?",
+        "options": ["Liver", "Skin", "Lungs", "Heart"],
+        "answer": 1
+      },
+      {
+        "q": "What type of muscle is found in the heart?",
+        "options": ["Skeletal", "Cardiac", "Smooth", "Voluntary"],
+        "answer": 1
+      },
+      {
+        "q": "Where does gas exchange occur in the lungs?",
+        "options": ["Bronchi", "Alveoli", "Trachea", "Pleura"],
+        "answer": 1
+      }
+    ],
+    "frq": [
+      "Describe the function of the digestive system.",
+      "Explain how oxygen is transported in the blood.",
+      "Outline the structure of the nephron in the kidney.",
+      "What is the role of the hypothalamus?"
     ]
   }
 }
