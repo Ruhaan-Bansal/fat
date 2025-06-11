@@ -1,0 +1,137 @@
+{
+  "Astronomy": {
+    "mcq": [
+      {
+        "q": "What type of star is the Sun?",
+        "options": ["Red Dwarf", "White Dwarf", "Main Sequence", "Neutron Star"],
+        "answer": 2
+      },
+      {
+        "q": "Which planet has the most moons?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": 3
+      },
+      {
+        "q": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Jupiter", "Neptune", "Saturn"],
+        "answer": 1
+      },
+      {
+        "q": "What is the Kuiper Belt?",
+        "options": [
+          "A type of galaxy",
+          "A ring of asteroids around Jupiter",
+          "A region beyond Neptune with icy bodies",
+          "A belt of gas around Earth"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which planet is known as the Red Planet?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "answer": 1
+      },
+      {
+        "q": "How long does it take for light from the Sun to reach Earth?",
+        "options": ["8 minutes", "8 seconds", "1 hour", "24 hours"],
+        "answer": 0
+      },
+      {
+        "q": "What is a supernova?",
+        "options": ["A type of galaxy", "An exploding star", "A planet", "A comet"],
+        "answer": 1
+      },
+      {
+        "q": "What causes the phases of the Moon?",
+        "options": ["Earth's shadow", "Sun's brightness changes", "Moon's position relative to Earth and Sun", "Tides"],
+        "answer": 2
+      }
+    ],
+    "frq": [
+      {
+        "q": "Explain the life cycle of a medium-mass star.",
+        "answer": "A medium-mass star forms from a nebula, becomes a main sequence star, expands into a red giant, then sheds its outer layers and ends as a white dwarf."
+      },
+      {
+        "q": "Describe how black holes are detected.",
+        "answer": "Black holes are detected by observing their effects on nearby matter and gravitational lensing, such as x-ray emissions from accretion disks."
+      },
+      {
+        "q": "Explain what causes a solar eclipse.",
+        "answer": "A solar eclipse occurs when the Moon passes between the Earth and the Sun, blocking the Sun's light."
+      },
+      {
+        "q": "What is a neutron star and how does it form?",
+        "answer": "A neutron star is a dense remnant of a supernova, formed when a massive star's core collapses."
+      },
+      {
+        "q": "Describe the differences between a comet and an asteroid.",
+        "answer": "Comets are icy bodies that release gas and dust forming tails when near the sun; asteroids are rocky or metallic and usually do not have tails."
+      },
+      {
+        "q": "What is the significance of the Hertzsprung-Russell diagram?",
+        "answer": "It shows the relationship between stars' brightness and temperature, helping classify star types and evolutionary stages."
+      }
+    ]
+  },
+  "Anatomy": {
+    "mcq": [
+      {
+        "q": "What is the largest organ in the human body?",
+        "options": ["Liver", "Skin", "Lungs", "Heart"],
+        "answer": 1
+      },
+      {
+        "q": "What type of muscle is found in the heart?",
+        "options": ["Skeletal", "Cardiac", "Smooth", "Voluntary"],
+        "answer": 1
+      },
+      {
+        "q": "Where does gas exchange occur in the lungs?",
+        "options": ["Bronchi", "Alveoli", "Trachea", "Pleura"],
+        "answer": 1
+      },
+      {
+        "q": "Which system is responsible for transporting blood throughout the body?",
+        "options": ["Digestive", "Respiratory", "Circulatory", "Nervous"],
+        "answer": 2
+      },
+      {
+        "q": "What is the function of red blood cells?",
+        "options": ["Fight infection", "Carry oxygen", "Clot blood", "Store nutrients"],
+        "answer": 1
+      },
+      {
+        "q": "Where is the femur located?",
+        "options": ["Arm", "Leg", "Skull", "Back"],
+        "answer": 1
+      }
+    ],
+    "frq": [
+      {
+        "q": "Describe the function of the digestive system.",
+        "answer": "The digestive system breaks down food, absorbs nutrients, and eliminates waste."
+      },
+      {
+        "q": "Explain how oxygen is transported in the blood.",
+        "answer": "Oxygen is transported by binding to hemoglobin in red blood cells."
+      },
+      {
+        "q": "Outline the structure of the nephron in the kidney.",
+        "answer": "The nephron filters blood, reabsorbs needed substances, and excretes waste as urine."
+      },
+      {
+        "q": "What is the role of the hypothalamus?",
+        "answer": "The hypothalamus regulates body temperature, hunger, thirst, and hormonal balance."
+      },
+      {
+        "q": "Explain the role of the skeletal system.",
+        "answer": "It provides support, protects organs, and allows movement with the help of muscles."
+      },
+      {
+        "q": "Describe the process of muscle contraction.",
+        "answer": "Muscle contraction occurs when actin and myosin filaments slide past each other, powered by ATP."
+      }
+    ]
+  }
+}
