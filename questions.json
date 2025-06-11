@@ -25,13 +25,41 @@
           "A belt of gas around Earth"
         ],
         "answer": 2
+      },
+      {
+        "q": "Which planet is known as the 'Red Planet'?",
+        "options": ["Mars", "Venus", "Mercury", "Saturn"],
+        "answer": 0
+      },
+      {
+        "q": "What causes the phases of the Moon?",
+        "options": [
+          "Earth's shadow on the Moon",
+          "Moon's orbit around Earth and Sun light",
+          "Solar flares",
+          "Earth's rotation"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is a light year?",
+        "options": [
+          "A year measured by Earth's orbit",
+          "Distance light travels in one year",
+          "A unit of time",
+          "A measure of brightness"
+        ],
+        "answer": 1
       }
     ],
     "frq": [
       "Explain the life cycle of a medium-mass star.",
       "Describe how black holes are detected.",
       "Explain what causes a solar eclipse.",
-      "What is a neutron star and how does it form?"
+      "What is a neutron star and how does it form?",
+      "Describe the differences between a comet, asteroid, and meteor.",
+      "Explain the role of gravity in planetary orbits.",
+      "How does the Doppler effect apply to astronomy?"
     ]
   },
   "Anatomy": {
@@ -50,13 +78,26 @@
         "q": "Where does gas exchange occur in the lungs?",
         "options": ["Bronchi", "Alveoli", "Trachea", "Pleura"],
         "answer": 1
+      },
+      {
+        "q": "Which part of the brain controls balance?",
+        "options": ["Cerebrum", "Cerebellum", "Medulla", "Hypothalamus"],
+        "answer": 1
+      },
+      {
+        "q": "What is the primary function of red blood cells?",
+        "options": ["Fight infection", "Carry oxygen", "Clot blood", "Produce hormones"],
+        "answer": 1
       }
     ],
     "frq": [
       "Describe the function of the digestive system.",
       "Explain how oxygen is transported in the blood.",
       "Outline the structure of the nephron in the kidney.",
-      "What is the role of the hypothalamus?"
+      "What is the role of the hypothalamus?",
+      "Describe the mechanism of muscle contraction.",
+      "Explain the process of neural transmission.",
+      "What are the functions of the different lobes of the brain?"
     ]
   }
 }
