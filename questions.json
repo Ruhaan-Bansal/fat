@@ -1,0 +1,62 @@
+{
+  "Anatomy": {
+    "mcq": [
+      {
+        "q": "What is the main function of the nephron?",
+        "options": ["Digestion", "Filtration", "Circulation", "Respiration"],
+        "answer": 1
+      },
+      {
+        "q": "Which muscle is part of the quadriceps?",
+        "options": ["Biceps", "Hamstring", "Rectus femoris", "Triceps"],
+        "answer": 2
+      }
+    ],
+    "frq": [
+      "Describe the pathway of blood through the heart.",
+      "Explain how muscle contraction occurs in the sliding filament theory."
+    ]
+  },
+  "Astronomy": {
+    "mcq": [
+      {
+        "q": "What is the primary component of the Sun?",
+        "options": ["Oxygen", "Carbon", "Helium", "Hydrogen"],
+        "answer": 3
+      },
+      {
+        "q": "Which planet has the most moons?",
+        "options": ["Earth", "Mars", "Saturn", "Venus"],
+        "answer": 2
+      }
+    ],
+    "frq": [
+      "Compare and contrast the life cycles of high mass vs low mass stars.",
+      "Explain how redshift supports the expanding universe theory."
+    ]
+  },
+  "Forensics": {
+    "mcq": [
+      {
+        "q": "Which technique is used for DNA profiling?",
+        "options": ["X-ray crystallography", "PCR", "Spectrophotometry", "Gel electrophoresis"],
+        "answer": 3
+      }
+    ],
+    "frq": [
+      "Describe how chromatography can be used to identify substances in a crime scene."
+    ]
+  },
+  "Chem Lab": {
+    "mcq": [
+      {
+        "q": "What color does phenolphthalein turn in a base?",
+        "options": ["Colorless", "Red", "Pink", "Blue"],
+        "answer": 2
+      }
+    ],
+    "frq": [
+      "Explain how titration is used to determine concentration."
+    ]
+  }
+}
